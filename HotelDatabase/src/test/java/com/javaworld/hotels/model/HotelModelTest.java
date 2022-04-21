@@ -51,7 +51,7 @@ public class HotelModelTest extends TestCase {
 		List<Hotel> hotels = finder.trouveHotelsParVille("Machupichu");
 		assertTrue(hotels.size() > 0);
 		for(Hotel h : hotels) {
-			assertEquals(h.getVille(),"New-York");
+			assertEquals(h.getVille(),"Machupichu");
 		}
 	}
 
