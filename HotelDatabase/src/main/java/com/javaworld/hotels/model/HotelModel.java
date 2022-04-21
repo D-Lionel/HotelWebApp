@@ -38,7 +38,7 @@ public class HotelModel {
             new Hotel("Hotel Hilton", "Trafalgar Square", "Londres", 4),
             new Hotel("Hotel Ibis", "The City", "Londres", 3),
             new Hotel("Hotel 1", "addr1", "Tokyo", 1),
-            new Hotel("Hotel 2", "addr2", "New-York", 2),
+            new Hotel("Hotel 2", "addr2", "Machupichu", 2),
         };
 
     /**

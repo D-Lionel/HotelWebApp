@@ -48,7 +48,7 @@ public class HotelModelTest extends TestCase {
 
 	public void testTrouveHotelsParVille4() {
 		HotelModel finder = new HotelModel();
-		List<Hotel> hotels = finder.trouveHotelsParVille("New-York");
+		List<Hotel> hotels = finder.trouveHotelsParVille("Machupichu");
 		assertTrue(hotels.size() > 0);
 		for(Hotel h : hotels) {
 			assertEquals(h.getVille(),"New-York");
